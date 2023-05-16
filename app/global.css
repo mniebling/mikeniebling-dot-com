@@ -1,0 +1,38 @@
+html {
+	--color-primary: #258fb8;
+	--color-dark: #052f40;
+	--color-light: #33c1f8;
+	--color-x-light: #dcf5ff;
+
+	height: 100%;
+}
+
+body {
+	background-color: white;
+	color: #444;
+	font-family: var(--font-family-primary);
+	line-height: 1.5;
+	margin: 0;
+	height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #052F40;
+	font-family: --var(--font-family-primary);
+	font-style: italic;
+	font-weight: 700;
+	margin: 0;
+}
+
+p {
+  max-width: 575px;
+}
+
+a, a.visited {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

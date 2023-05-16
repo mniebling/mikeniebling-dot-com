@@ -18,7 +18,7 @@ export default function Page() {
 					<h2 className={ css.h2 }>Music</h2>
 
 					<div><a href="/playlists">Playlists</a></div>
-					<div><a href="/queue">Listening queue</a></div>
+					<div><a href="/music/queue">Listening queue</a></div>
 
 					<p>In 2020 I made a resolution to review all the records I liked.
 					It became a nice challenge and sharpened my thinking and writing about music, although I did fall off

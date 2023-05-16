@@ -1,23 +1,23 @@
-.playlist-block {
+.playlist {
   margin-bottom: 25px;
 }
 
 @media (min-width: 700px) {
-  .playlist-block {
+  .playlist {
     display: flex;
   }
 }
 
-.playlist-block:first-of-type {
+.playlist:first-of-type {
   margin-top: 40px;
 }
 
-.playlist-block iframe {
+.playlist iframe {
   background-color: #f5f5f5;
   margin-right: 25px;
 }
 
-.playlist-header {
+.header {
   display: none;
   font-size: 18px;
   font-weight: bold;
@@ -25,16 +25,16 @@
 }
 
 @media (min-width: 700px) {
-  .playlist-header {
+  .header {
     display: block;
   }
 }
 
-.playlist-description {
+.description {
   margin: 5px 0;
 }
 
-.playlist-description:last-of-type {
+.featuring {
   color: #777;
   font-style: italic;
 }

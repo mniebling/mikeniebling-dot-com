@@ -17,7 +17,7 @@ export default function Page() {
 				<section className={ css.section }>
 					<h2 className={ css.h2 }>Music</h2>
 
-					<div><a href="/playlists">Playlists</a></div>
+					<div><a href="/music/playlists">Playlists</a></div>
 					<div><a href="/music/queue">Listening queue</a></div>
 
 					<p>In 2020 I made a resolution to review all the records I liked.

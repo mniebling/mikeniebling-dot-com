@@ -4,7 +4,7 @@ import css from './layout.module.css'
 export default function PostLayout(props) {
 
 	return (
-		<>
+		<div className={ css.post }>
 			<div className={ css.postLinks }>
 				<a href='/'>Home</a>
 			</div>
@@ -12,6 +12,6 @@ export default function PostLayout(props) {
 			<div className={ css.postBody }>
 				{ props.children }
 			</div>
-		</>
+		</div>
 	)
 }

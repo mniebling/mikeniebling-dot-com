@@ -1,4 +1,4 @@
-import css from './playlist.module.css'
+import css from './Playlist.module.css'
 
 /**
  * @param title - The playlist name

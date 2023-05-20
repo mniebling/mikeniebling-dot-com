@@ -2,31 +2,31 @@
   margin-bottom: 25px;
 }
 
-.review-title {
+.title {
   font-weight: bold;
   margin-bottom: 5px;
 }
 
-.review-body {
+.body {
   margin-bottom: 10px;
 }
 
-.review-body p:first-of-type {
+.body p:first-of-type {
   margin-top: 0;
 }
 
-.review-body p:last-of-type {
+.body p:last-of-type {
   margin-bottom: 0;
 }
 
-.review-hot {
+.hot {
   color: darkorange;
   font-style: italic;
   font-weight: normal;
   margin-left: 10px;
 }
 
-.review-hot::before {
+.hot::before {
   content: '🔥';
   font-style: normal;
   margin-right: 4px;

@@ -25,7 +25,7 @@ export default function Page() {
 					at the end of the year when life got crazy. Here are my reviews, month-by-month:</p>
 
 					<span style={{ color: '#777' }}>
-						<a href="/">Jan</a><span> • </span>
+						<a href="/music/2020/01-reviews">Jan</a><span> • </span>
 						<a href="/">Feb</a><span> • </span>
 						<a href="/">Mar</a><span> • </span>
 						<a href="/">Apr</a><span> • </span>

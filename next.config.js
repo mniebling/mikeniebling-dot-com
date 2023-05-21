@@ -3,6 +3,7 @@ const nextConfig = {
 	experimental: {
 		mdxRs: true,
 	},
+	pageExtensions: ['jsx', 'mdx'],
 }
 
 const withMDX = require('@next/mdx')()

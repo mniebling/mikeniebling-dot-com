@@ -23,11 +23,6 @@ export default function RootLayout(props) {
 
 	return (
 		<html lang='en' className={ typeface.variable }>
-			<Head>
-				<link rel='shortcut icon' href='/favicon.ico' />
-				<link rel='apple-touch-icon' href='/favicon.ico' />
-			</Head>
-
 			<body>{ props.children }</body>
 		</html>
 	)

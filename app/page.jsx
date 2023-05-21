@@ -26,7 +26,7 @@ export default function Page() {
 
 					<span style={{ color: '#777' }}>
 						<a href="/music/2020/01">Jan</a><span> • </span>
-						<a href="/">Feb</a><span> • </span>
+						<a href="/music/2020/02">Feb</a><span> • </span>
 						<a href="/">Mar</a><span> • </span>
 						<a href="/">Apr</a><span> • </span>
 						<a href="/">May</a><span> • </span>

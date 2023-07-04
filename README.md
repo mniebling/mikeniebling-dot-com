@@ -10,3 +10,5 @@ Mike's personal [website](http://www.mikeniebling.com).
 #### Commands
 
 `npm start`: Serve the site locally for development.
+
+`npm run build`: Create a production build in the `out` directory.

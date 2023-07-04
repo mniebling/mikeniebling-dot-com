@@ -4,9 +4,8 @@
   "description": "mikeniebling.com",
   "main": "index.js",
   "scripts": {
-    "build": "eleventy",
-    "clean": "rimraf dist",
-    "start": "eleventy --serve"
+    "build": "next build",
+    "start": "next dev"
   },
   "repository": {
     "type": "git",
@@ -19,9 +18,14 @@
   },
   "homepage": "https://github.com/mniebling/mikeniebling-dot-com#readme",
   "devDependencies": {
-    "@11ty/eleventy": "0.11.0",
-    "markdown-it": "11.0.0",
-    "outdent": "0.7.1",
     "rimraf": "3.0.2"
+  },
+  "dependencies": {
+    "@mdx-js/loader": "2.3.0",
+    "@mdx-js/react": "2.3.0",
+    "@next/mdx": "13.4.8",
+    "next": "13.4.8",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   }
 }

@@ -11,6 +11,25 @@ import October from './10.mdx'
 import November from './11.mdx'
 import December from './12.mdx'
 
+// Return a list of `params` to populate the [slug] dynamic segment
+export async function generateStaticParams() {
+
+  return [
+		'01',
+		'02',
+		'03',
+		'04',
+		'05',
+		'06',
+		'07',
+		'08',
+		'09',
+		'10',
+		'11',
+		'12',
+	]
+}
+
 
 export default function Page({ params }) {
 

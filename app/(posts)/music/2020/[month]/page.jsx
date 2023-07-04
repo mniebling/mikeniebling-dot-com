@@ -11,7 +11,8 @@ import October from './10.mdx'
 import November from './11.mdx'
 import December from './12.mdx'
 
-// Return a list of `params` to populate the [slug] dynamic segment
+// Return a list of `params` to populate the [slug] dynamic segment.
+// This is required or else we won't have statically generated pages at these routes.
 export async function generateStaticParams() {
 
   return [

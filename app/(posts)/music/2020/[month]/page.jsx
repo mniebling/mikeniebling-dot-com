@@ -27,7 +27,7 @@ export async function generateStaticParams() {
 		'10',
 		'11',
 		'12',
-	]
+	].map(num => ({ month: num }))
 }
 
 

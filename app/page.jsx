@@ -27,16 +27,16 @@ export default function Page() {
 					<span style={{ color: '#777' }}>
 						<a href="/music/2020/01">Jan</a><span> • </span>
 						<a href="/music/2020/02">Feb</a><span> • </span>
-						<a href="/">Mar</a><span> • </span>
-						<a href="/">Apr</a><span> • </span>
-						<a href="/">May</a><span> • </span>
-						<a href="/">Jun</a><span> • </span>
-						<a href="/">Jul</a><span> • </span>
-						<a href="/">Aug</a><span> • </span>
-						<a href="/">Sep</a><span> • </span>
-						<a href="/">Oct</a><span> • </span>
-						<a href="/">Nov</a><span> • </span>
-						<a href="/">Dec</a>
+						<a href="/music/2020/03">Mar</a><span> • </span>
+						<a href="/music/2020/04">Apr</a><span> • </span>
+						<a href="/music/2020/05">May</a><span> • </span>
+						<a href="/music/2020/06">Jun</a><span> • </span>
+						<a href="/music/2020/07">Jul</a><span> • </span>
+						<a href="/music/2020/08">Aug</a><span> • </span>
+						<a href="/music/2020/09">Sep</a><span> • </span>
+						<a href="/music/2020/10">Oct</a><span> • </span>
+						<a href="/music/2020/11">Nov</a><span> • </span>
+						<a href="/music/2020/12">Dec</a>
 					</span>
 				</section>
 

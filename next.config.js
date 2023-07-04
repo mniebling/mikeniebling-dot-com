@@ -3,6 +3,7 @@ const nextConfig = {
 	experimental: {
 		mdxRs: true,
 	},
+	output: 'export', // required for hosting on Netlify
 	pageExtensions: ['jsx', 'mdx'],
 }
 

@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import './global.css'
 
 export const metadata = {
@@ -9,20 +8,20 @@ export const metadata = {
 
 // Next.js support for Google web fonts:
 // https://nextjs.org/docs/app/building-your-application/optimizing/fonts
-import { IBM_Plex_Serif } from 'next/font/google'
+// import { IBM_Plex_Serif } from 'next/font/google'
 
-const typeface = IBM_Plex_Serif({
-	display: 'swap',
-	style: ['normal', 'italic'],
-	subsets: ['latin'],
-	variable: '--font-family-primary',
-	weight: ['400', '700'],
-})
+// const typeface = IBM_Plex_Serif({
+// 	display: 'swap',
+// 	style: ['normal', 'italic'],
+// 	subsets: ['latin'],
+// 	variable: '--font-family-primary',
+// 	weight: ['400', '700'],
+// })
 
 export default function RootLayout(props) {
 
 	return (
-		<html lang='en' className={ typeface.variable }>
+		<html lang='en'>
 			<body>{ props.children }</body>
 		</html>
 	)

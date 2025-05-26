@@ -29,6 +29,7 @@ import SiteLayout from './SiteLayout.astro'
 	.postLinks a {
 		color: white;
 		text-decoration: underline;
+		transition: 0.25s all;
 	}
 
 	.postLinks a:hover,
@@ -46,15 +47,15 @@ import SiteLayout from './SiteLayout.astro'
 		text-transform: capitalize;
 	}
 
-	.postBody h1 {
+	.postBody :global(h1) {
 		margin-bottom: 25px;
 	}
 
-	.postBody h2 {
+	.postBody :global(h2) {
 		margin-bottom: 20px;
 	}
 
-	.postBody h3 {
+	.postBody :global(h3) {
 		margin: 25px 0 15px 0;
 	}
 

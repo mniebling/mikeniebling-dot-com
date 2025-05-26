@@ -1,8 +1,10 @@
-import { Playlist } from '@/components/Playlist'
+---
+layout: ../../layouts/PostLayout.astro
+title: Playlists
+---
 
-export const metadata = {
-	title: 'Playlists',
-}
+import Playlist from '../../components/Playlist.astro'
+
 
 # Playlists
 
@@ -15,30 +17,35 @@ You can see the tracklist by clicking the icon in the top right of each box (eve
 	description='A variety of pieces with different ragas, talas, and instruments.'
 	featuring='Featuring Amjad Ali Khan, Shivkumar Sharma, Zakir Hussain and more.'
 />
+
 <Playlist
 	title='Modern Jazz Sounds'
 	url='https://open.spotify.com/embed/playlist/2OKsa50m6rcvHlGht5SfQl'
 	description='My favorite jazz tunes from the year 2000–present.'
 	featuring='Featuring Kamasi Washington, Mammal Hands, Makaya McCraven and more.'
 />
+
 <Playlist
 	title='Modern/Minimal'
 	url='https://open.spotify.com/embed/playlist/3sibVERgGIbtVHae6vghBO'
 	description='Quiet &amp; thoughtful music with space to breathe.'
 	featuring='Featuring Nils Frahm, Max Richter, Poppy Ackroyd and more.'
 />
+
 <Playlist
 	title='Noir'
 	url='https://open.spotify.com/embed/playlist/0OXdIb80lAnC039WcQ2Wra'
 	description='Raymond Chandler, eat your heart out.'
 	featuring='Featuring Miles Davis, Bohren & der Club of Gore, Black Chamber and more.'
 />
+
 <Playlist
 	title='Rain'
 	url='https://open.spotify.com/embed/playlist/6hLFlAQ8l2nn62r5cBGLQ6'
 	description='Music for rainstorms and open windows.'
 	featuring='Featuring Susumu Yokota, Kaitlyn Aurelia Smith, Triosk and more.'
 />
+
 <Playlist
 	title='Work Metal'
 	url='https://open.spotify.com/embed/playlist/7u4fLXtFIrNRCUWUtO2WuX'

@@ -1,36 +1,64 @@
 ---
-console.log('This runs in your terminal, not the browser!')
+import SiteLayout from '../layouts/SiteLayout.astro'
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={ Astro.generator } />
 
-		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+<SiteLayout>
+	<div class="header">
+		<h1>Mike Niebling</h1>
+	</div>
 
-		<title>Mike Niebling</title>
-	</head>
+	<main class="container">
+		<section>
+			<h2>Music</h2>
 
-	<body>
+			<div><a href="/music/playlists">Playlists</a></div>
+			<div><a href="/music/queue">Listening queue</a></div>
 
-		<div>
-			<h1>Mike Niebling</h1>
-		</div>
+			<p>In 2020 I made a resolution to review all the records I liked.
+			It became a nice challenge and sharpened my thinking and writing about music, although I did fall off
+			at the end of the year when life got crazy. Here are my reviews, month-by-month:</p>
+		</section>
+	</main>
+</SiteLayout>
 
-		<main>
-			<section>
-				<h2>Music</h2>
 
-				<div><a href="/music/playlists">Playlists</a></div>
-				<div><a href="/music/queue">Listening queue</a></div>
+<style>
+	.header {
+		background: var(--color-dark);
+		border-top: 4px solid var(--color-primary);
+		margin: 0 0 20px 0;
+		padding: 6px 20px 8px 20px;
+		position: relative;
+	}
 
-				<p>In 2020 I made a resolution to review all the records I liked.
-				It became a nice challenge and sharpened my thinking and writing about music, although I did fall off
-				at the end of the year when life got crazy. Here are my reviews, month-by-month:</p>
-			</section>
-		</main>
+	.container {
+		margin: 0 20px;
+		padding-top: 10px;
+	}
 
-	</body>
-</html>
+	.section {
+		margin-bottom: 30px;
+	}
+
+	.section:last-of-type {
+		margin-bottom: 0;
+		padding-bottom: 60px;
+	}
+
+	.subtitle {
+		color: #777;
+	}
+
+	h1 {
+		color: white;
+	}
+
+	h2 {
+		margin-bottom: 15px;
+	}
+
+	.projectLink {
+		margin-right: 4px;
+	}
+</style>

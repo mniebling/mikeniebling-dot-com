@@ -1,0 +1,101 @@
+---
+import SiteLayout from './SiteLayout.astro'
+---
+
+<SiteLayout>
+	<div class="post">
+		<div class="postLinks">
+			<a href="/">Home</a>
+		</div>
+
+		<div class="postBody">
+			<slot />
+		</div>
+	</div>
+</SiteLayout>
+
+<style>
+	.post {
+		padding-bottom: 60px;
+	}
+
+	.postLinks {
+		background: var(--color-dark);
+		border-top: 4px solid var(--color-primary);
+		padding: 10px 20px;
+		margin-bottom: 20px;
+	}
+
+	.postLinks a {
+		color: white;
+		text-decoration: underline;
+	}
+
+	.postLinks a:hover,
+	.postLinks a:active {
+		color: var(--color-light);
+	}
+
+	.postMeta {
+		margin-bottom: 10px;
+	}
+
+	.postCategoryLink {
+		color: #777;
+		text-decoration: none;
+		text-transform: capitalize;
+	}
+
+	.postBody h1 {
+		margin-bottom: 25px;
+	}
+
+	.postBody h2 {
+		margin-bottom: 20px;
+	}
+
+	.postBody h3 {
+		margin: 25px 0 15px 0;
+	}
+
+	.postBody {
+		background-color: white;
+		padding: 0 20px;
+	}
+
+	.postBody img,
+	.postBody video {
+		display: block;
+		margin: 0 auto;
+		max-height: 400px;
+		max-width: 100%;
+	}
+
+	.postBody blockquote {
+		--blockquote-text-color: #666;
+
+		background-color: #f5f5f5;
+		border-left: 2px solid #999;
+		color: var(--blockquote-text-color);
+		display: inline-block;
+		margin: 0;
+		padding: 10px 20px;
+	}
+
+	.postBody blockquote p {
+		margin: 0;
+	}
+
+	.postBody blockquote a,
+	.postBody blockquote a:visited {
+		color: var(--blockquote-text-color);
+		text-decoration: underline;
+	}
+
+	.postBody code {
+		background: var(--color-x-light);
+		border-radius: 3px;
+		color: var(--color-dark);
+		padding: 4px 8px;
+	}
+</style>

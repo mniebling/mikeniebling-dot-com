@@ -4,6 +4,8 @@ html {
 	--color-light: #33c1f8;
 	--color-x-light: #dcf5ff;
 
+	--font-family-primary: "IBM Plex Serif", serif;
+
 	height: 100%;
 }
 

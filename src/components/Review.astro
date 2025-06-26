@@ -1,0 +1,72 @@
+---
+interface Props {
+	/** If the review was highly recommended. */
+	hot: boolean
+	/** The name of the thing that was reviewed. */
+	title: string
+	/** Spotify embed url for the record. */
+	url: string
+}
+
+const url = Astro.props.url?.replace('spotify:', '')
+---
+
+
+
+<!-- // Insert a newline before `body` so that markdown adds a `p` tag around the
+// first paragraph of the contents.
+// const content = md.renderInline('\n' + body) -->
+<div class='review'>
+	<div class='title'>
+		<span>{ Astro.props.title }</span>
+		{ Astro.props.hot && (
+			<span class='hot'>Highly recommended!</span>
+		)}
+	</div>
+
+	<div class='body'>
+		<slot />
+	</div>
+
+	<div class='links'>
+		{ Astro.props.url && (
+			<a href={ url } target="_blank">Spotify</a>
+		)}
+	</div>
+</div>
+
+<style>
+	.review {
+		margin-bottom: 25px;
+	}
+
+	.title {
+		font-weight: bold;
+		margin-bottom: 5px;
+	}
+
+	.body {
+		margin-bottom: 10px;
+	}
+
+	.body p:first-of-type {
+		margin-top: 0;
+	}
+
+	.body p:last-of-type {
+		margin-bottom: 0;
+	}
+
+	.hot {
+		color: darkorange;
+		font-style: italic;
+		font-weight: normal;
+		margin-left: 10px;
+	}
+
+	.hot::before {
+		content: '🔥';
+		font-style: normal;
+		margin-right: 4px;
+	}
+</style>

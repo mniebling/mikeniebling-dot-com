@@ -1,0 +1,119 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro'
+---
+
+
+<SiteLayout>
+	<div class="header">
+		<h1>Mike Niebling</h1>
+	</div>
+
+	<main class="container">
+		<section class="section">
+			<h2>Music</h2>
+
+			<p>I'm currently playing tabla in <a href="https://www.instagram.com/radicel.band" target="_blank" rel="noopener">Radicel</a>—a
+				jazz quintet with unique instrumentation. If drum kit + tabla + bass + sax + violin sounds cool
+				to you, come check us out!
+			</p>
+			<p>
+				Our next show is July 23 at <a href="https://throughtherecordshop.com">Dorian's</a>.
+			</p>
+
+			<p>Here are some collections of music that I'm enjoying:</p>
+
+			<div><a href="/music/playlists">Playlists</a></div>
+			<div><a href="/music/queue">Listening queue</a></div>
+
+			<p>In 2020 I made a resolution to review all the records I liked.
+			It became a nice challenge and sharpened my thinking and writing about music, although I did fall off
+			at the end of the year when life got crazy. Here are my reviews, month-by-month:</p>
+
+			<span style={{ color: '#777' }}>
+				<a href="/music/2020/01">Jan</a><span> • </span>
+				<a href="/music/2020/02">Feb</a><span> • </span>
+				<a href="/music/2020/03">Mar</a><span> • </span>
+				<a href="/music/2020/04">Apr</a><span> • </span>
+				<a href="/music/2020/05">May</a><span> • </span>
+				<a href="/music/2020/06">Jun</a><span> • </span>
+				<a href="/music/2020/07">Jul</a><span> • </span>
+				<a href="/music/2020/08">Aug</a><span> • </span>
+				<a href="/music/2020/09">Sep</a><span> • </span>
+				<a href="/music/2020/10">Oct</a><span> • </span>
+				<a href="/music/2020/11">Nov</a><span> • </span>
+				<a href="/music/2020/12">Dec</a>
+			</span>
+		</section>
+
+		<section class="section">
+			<h2>The Quantified Life</h2>
+
+			<div><a href="https://www.last.fm/user/thebling">Music (Last.fm)</a></div>
+			<div><a href="https://www.goodreads.com/user/show/104157118-mike">Books (Goodreads)</a></div>
+			<div><a href="https://letterboxd.com/thebling/">Movies (Letterboxd)</a></div>
+			<div><a href="https://www.songkick.com/users/thebling">Concerts (Songkick)</a></div>
+			<div><a href="https://www.moxfield.com/users/thebling">Magic: The Gathering (Moxfield)</a></div>
+		</section>
+
+		<section class="section">
+			<h2>Projects</h2>
+
+			<p>
+				<a href="https://github.com/mniebling/sous-chef" target="_blank" rel="noopener">SousChef:</a>
+				<span>A macOS application for managing recipes in Markdown and displaying them nicely to read while cooking.</span>
+			</p>
+
+			<p>
+				<a href="https://www.estherpomranky.com" target="_blank" rel="noopener">Esther's website:</a>
+				<span>I maintain Esther's art site to help her show off her paintings and link to her YouTube channel and Etsy store.</span>
+			</p>
+
+			<p>
+				<a href="https://github.com/mniebling/light-fakery" target="_blank" rel="noopener">Light Fakery:</a>
+				<span>An open-source JS library for generating random fake data. Its goal is to be as lightweight as possible with great developer ergonomics.</span>
+			</p>
+
+			<p>
+				<a href="https://walkability.netlify.app" target="_blank" rel="noopener">Walkability:</a>
+				<span>A simple project I built for our house search. It helped us visualize what places are near an address within various walking distances.</span>
+			</p>
+		</section>
+	</main>
+</SiteLayout>
+
+
+<style>
+	.header {
+		background: var(--color-dark);
+		border-top: 4px solid var(--color-primary);
+		margin: 0 0 20px 0;
+		padding: 6px 20px 8px 20px;
+		position: relative;
+	}
+
+	.container {
+		margin: 0 20px;
+		padding-top: 10px;
+	}
+
+	.section {
+		margin-bottom: 30px;
+	}
+
+	.section:last-of-type {
+		margin-bottom: 0;
+		padding-bottom: 60px;
+	}
+
+	.subtitle {
+		color: #777;
+	}
+
+	h1 {
+		color: white;
+	}
+
+	h2 {
+		margin-bottom: 15px;
+	}
+</style>

@@ -1,0 +1,15 @@
+{
+	// https://github.com/withastro/astro/tree/main/packages/astro/tsconfigs
+  "extends": "astro/tsconfigs/strictest",
+	"compilerOptions": {
+		// Astro sets target to ESNext but I would like to explicitly opt in to features.
+		"target": "es2024"
+	},
+	"exclude": [
+		"./dist"
+	],
+	"include": [
+		"./.astro/types.d.ts",
+		"./**/*"
+	]
+}

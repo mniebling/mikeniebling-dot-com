@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0521722c-cc33-4f57-b9d4-09764cbae86d/deploy-status)](https://app.netlify.com/sites/mikeniebling/deploys)
 
-Mike's personal [website](http://www.mikeniebling.com).
+Mike's personal [website](https://www.mikeniebling.com).
 
 
 ### Development
@@ -11,4 +11,4 @@ Mike's personal [website](http://www.mikeniebling.com).
 
 `npm start`: Serve the site locally for development.
 
-`npm run build`: Create a production build in the `out` directory.
+`npm run build`: Create a production build in the `dist` directory.

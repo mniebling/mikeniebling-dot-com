@@ -1,0 +1,33 @@
+.header {
+	background: var(--color-dark);
+	border-top: 4px solid var(--color-primary);
+	margin: 0 0 20px 0;
+	padding: 6px 20px 8px 20px;
+	position: relative;
+}
+
+.container {
+  margin: 0 20px;
+  padding-top: 10px;
+}
+
+.section {
+	margin-bottom: 30px;
+}
+
+.section:last-of-type {
+	margin-bottom: 0;
+	padding-bottom: 60px;
+}
+
+.subtitle {
+	color: #777;
+}
+
+.h1 {
+	color: white;
+}
+
+.projectLink {
+	margin-right: 4px;
+}

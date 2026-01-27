@@ -20,6 +20,6 @@
   "dependencies": {
     "@astrojs/mdx": "4.3.13",
     "@fontsource/ibm-plex-serif": "5.2.7",
-    "astro": "5.16.6"
+    "astro": "5.16.15"
   }
 }

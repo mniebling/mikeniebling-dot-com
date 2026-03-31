@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/mniebling/mikeniebling-dot-com#readme",
   "dependencies": {
-    "@astrojs/mdx": "4.3.13",
+    "@astrojs/mdx": "5.0.3",
     "@fontsource/ibm-plex-serif": "5.2.7",
-    "astro": "5.16.15"
+    "astro": "6.1.2"
   }
 }
